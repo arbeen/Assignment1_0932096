@@ -39,8 +39,8 @@ class PersonTest {
         Dog dog = new Dog("Puppy", 5);
         Person person = new Person("Arbin", 30, dog);
 
-        person.changeDogsName("Charlie");
-        assertEquals("Charlie", dog.getName(), "Dog's name should be changed to Charlie");
+        person.changeDogsName("Dogg");
+        assertEquals("Dogg", dog.getName(), "Dog's name should be changed to Dogg");
     }
 
     @Test
